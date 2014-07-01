@@ -86,33 +86,15 @@ assimp:
   opensuse: [libassimp3]
   rhel: [assimp-devel]
   ubuntu:
-    lucid:
-      apt:
-        packages: [assimp-dev]
-    maverick:
-      apt:
-        packages: [assimp-dev]
-    oneiric:
-      apt:
-        packages: [assimp-dev]
-    precise:
-      apt:
-        packages: [libassimp-dev]
-    quantal:
-      apt:
-        packages: [libassimp-dev]
-    raring:
-      apt:
-        packages: [libassimp-dev]
-    saucy:
-      apt:
-        packages: [libassimp-dev]
-    trusty:
-      apt:
-        packages: [libassimp-dev]
-    trusty_python3:
-      apt:
-        packages: [libassimp-dev]
+    lucid: [assimp-dev]
+    maverick: [assimp-dev]
+    oneiric: [assimp-dev]
+    precise: [libassimp-dev]
+    quantal: [libassimp-dev]
+    raring: [libassimp-dev]
+    saucy: [libassimp-dev]
+    trusty: [libassimp-dev]
+    trusty_python3: [libassimp-dev]
 assimp-dev:
   arch: [assimp]
   debian:
@@ -126,33 +108,15 @@ assimp-dev:
   opensuse: [libassimp3]
   rhel: [assimp-devel]
   ubuntu:
-    lucid:
-      apt:
-        packages: [assimp-dev]
-    maverick:
-      apt:
-        packages: [assimp-dev]
-    oneiric:
-      apt:
-        packages: [assimp-dev]
-    precise:
-      apt:
-        packages: [libassimp-dev]
-    quantal:
-      apt:
-        packages: [libassimp-dev]
-    raring:
-      apt:
-        packages: [libassimp-dev]
-    saucy:
-      apt:
-        packages: [libassimp-dev]
-    trusty:
-      apt:
-        packages: [libassimp-dev]
-    trusty_python3:
-      apt:
-        packages: [libassimp-dev]
+    lucid: [assimp-dev]
+    maverick: [assimp-dev]
+    oneiric: [assimp-dev]
+    precise: [libassimp-dev]
+    quantal: [libassimp-dev]
+    raring: [libassimp-dev]
+    saucy: [libassimp-dev]
+    trusty: [libassimp-dev]
+    trusty_python3: [libassimp-dev]
 atlas:
   arch: [atlas-lapack]
   debian: [libatlas-base-dev]
@@ -277,36 +241,16 @@ boost:
   opensuse: [boost-devel]
   rhel: [boost-devel]
   ubuntu:
-    lucid:
-      apt:
-        packages: [libboost1.40-all-dev]
-    maverick:
-      apt:
-        packages: [libboost1.42-all-dev]
-    natty:
-      apt:
-        packages: [libboost1.42-all-dev]
-    oneiric:
-      apt:
-        packages: [libboost1.46-all-dev]
-    precise:
-      apt:
-        packages: [libboost-all-dev]
-    quantal:
-      apt:
-        packages: [libboost-all-dev]
-    raring:
-      apt:
-        packages: [libboost-all-dev]
-    saucy:
-      apt:
-        packages: [libboost-all-dev]
-    trusty:
-      apt:
-        packages: [libboost-all-dev]
-    trusty_python3:
-      apt:
-        packages: [libboost-all-dev]
+    lucid: [libboost1.40-all-dev]
+    maverick: [libboost1.42-all-dev]
+    natty: [libboost1.42-all-dev]
+    oneiric: [libboost1.46-all-dev]
+    precise: [libboost-all-dev]
+    quantal: [libboost-all-dev]
+    raring: [libboost-all-dev]
+    saucy: [libboost-all-dev]
+    trusty: [libboost-all-dev]
+    trusty_python3: [libboost-all-dev]
 bullet:
   arch: [bullet]
   debian:
@@ -319,24 +263,12 @@ bullet:
   macports: [bullet]
   opensuse: [libbullet]
   ubuntu:
-    precise:
-      apt:
-        packages: [libbullet-dev]
-    quantal:
-      apt:
-        packages: [libbullet-dev]
-    raring:
-      apt:
-        packages: [libbullet-dev]
-    saucy:
-      apt:
-        packages: [libbullet-dev]
-    trusty:
-      apt:
-        packages: [libbullet-dev]
-    trusty_python3:
-      apt:
-        packages: [libbullet-dev]
+    precise: [libbullet-dev]
+    quantal: [libbullet-dev]
+    raring: [libbullet-dev]
+    saucy: [libbullet-dev]
+    trusty: [libbullet-dev]
+    trusty_python3: [libbullet-dev]
 bzip2:
   arch: [bzip2]
   cygwin: [bzip2]
@@ -461,7 +393,7 @@ dpkg:
 eclipse:
   arch: [eclipse, eclipse-rcp, eclipse-emf, eclipse-pde]
   debian: [eclipse, eclipse-rcp, eclipse-xsd, eclipse-pde]
-  fedora: [eclipse-pde,eclipse-emf]
+  fedora: [eclipse-pde, eclipse-emf]
   gentoo:
     portage:
       packages: [dev-java/ant-eclipse-ecj, dev-util/eclipse-sdk, dev-java/eclipse-ecj]
@@ -908,9 +840,10 @@ libargtable2-dev:
   ubuntu: [libargtable2-dev]
 libaria:
   ubuntu:
-    source:
-      md5sum: 589c387995beb951edd9c77f33cb2286
-      uri: 'https://raw.github.com/amor-ros-pkg/rosaria/master/libaria.rdmanifest'
+    any_version:
+      source:
+        md5sum: [589c387995beb951edd9c77f33cb2286]
+        uri: ['https://raw.github.com/amor-ros-pkg/rosaria/master/libaria.rdmanifest']
 libasound2-dev:
   arch: [alsa-lib]
   fedora: [alsa-lib]
@@ -1050,9 +983,9 @@ libflann:
       packages: [sci-libs/flann]
   macports: [flann]
   ubuntu:
-    precise:  [libflann1]
-    quantal:  [libflann1.7]
-    raring:  [libflann1.7]
+    precise: [libflann1]
+    quantal: [libflann1.7]
+    raring: [libflann1.7]
 libflann-dev:
   arch: [flann]
   debian: [libflann-dev]
@@ -2236,12 +2169,12 @@ openjdk-6-jdk:
   freebsd: [openjdk6]
   ubuntu: [openjdk-6-jdk]
 openmpi:
-  arch: []
-  debian: []
+  arch:
+  debian:
   fedora: [openmpi]
-  freebsd: []
+  freebsd:
   macports: [openmpi]
-  ubuntu: []
+  ubuntu:
 openni-dev:
   arch: [openni]
   debian: [libopenni-dev]
@@ -2800,17 +2733,9 @@ xulrunner-1.9.2:
     maverick: [xulrunner-1.9.2]
     natty: [xulrunner-1.9.2]
     oneiric:
-      apt:
-        packages: []
     precise:
-      apt:
-        packages: []
     quantal:
-      apt:
-        packages: []
     raring:
-      apt:
-        packages: []
 xulrunner-dev:
   arch: [xulrunner]
   debian: [libv8-dev]
@@ -2831,19 +2756,13 @@ yaml:
 yaml-cpp:
   arch: [yaml-cpp]
   debian:
-    jessie:
-      apt:
-        packages: [libyaml-cpp-dev]
-    sid:
-      apt:
-        packages: [libyaml-cpp-dev]
+    jessie: [libyaml-cpp-dev]
+    sid: [libyaml-cpp-dev]
     squeeze:
       source:
         md5sum: f7fb81fd4a2fbd5022daa7686e816359
-        uri: 'https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest'
-    wheezy:
-      apt:
-        packages: [libyaml-cpp-dev]
+        uri: https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest
+    wheezy: [libyaml-cpp-dev]
   fedora: [yaml-cpp-devel]
   gentoo:
     portage:

@@ -1,630 +1,377 @@
 apr:
   osx:
-    homebrew:
-      packages: []
 assimp:
-  osx:
-    homebrew:
-      packages: [assimp]
+  osx: [assimp]
 assimp-dev:
-  osx:
-    homebrew:
-      packages: [assimp]
+  osx: [assimp]
 atlas:
   osx:
-    homebrew:
-      packages: []
 autoconf:
   osx:
-    homebrew:
-      packages: []
 automake:
   osx:
-    homebrew:
-      packages: []
 bazaar:
-  osx:
-    homebrew:
-      packages: [bazaar]
+  osx: [bazaar]
 bison:
   osx:
-    homebrew:
-      packages: []
 boost:
-  osx:
-    homebrew:
-      packages: [boost]
+  osx: [boost]
 bullet:
-  osx:
-    homebrew:
-      packages: [bullet]
+  osx: [bullet]
 bzip2:
   osx:
-    homebrew:
-      packages: []
 checkinstall:
   osx:
-    homebrew:
-      packages: []
 cmake:
-  osx:
-    homebrew:
-      packages: [cmake]
+  osx: [cmake]
 collada-dom:
-  osx:
-    homebrew:
-      packages: [collada-dom]
+  osx: [collada-dom]
 cppunit:
-  osx:
-    homebrew:
-      packages: [cppunit]
+  osx: [cppunit]
 curl:
   osx:
-    homebrew:
-      packages: []
 doxygen:
-  osx:
-    homebrew:
-      packages: [doxygen]
+  osx: [doxygen]
 eigen:
   osx:
-    homebrew:
-      depends: [gfortran]
-      packages: [eigen]
+    any_version:
+      homebrew:
+        depends: [gfortran]
+        packages: [eigen]
 epydoc:
   osx:
-    pip:
-      packages: [epydoc]
+    any_version:
+      pip: [epydoc]
 ffmpeg:
-  osx:
-    homebrew:
-      packages: [ffmpeg]
+  osx: [ffmpeg]
 flex:
   osx:
-    homebrew:
-      packages: []
 fltk:
-  osx:
-    homebrew:
-      packages: [fltk]
+  osx: [fltk]
 freeimage:
-  osx:
-    homebrew:
-      packages: [freeimage]
+  osx: [freeimage]
 freetype:
-  osx:
-    homebrew:
-      packages: [freetype]
+  osx: [freetype]
 gazebo:
-  osx:
-    homebrew:
-      packages: [gazebo]
+  osx: [gazebo]
 gccxml:
   osx:
-    homebrew:
-      packages: []
 gfortran:
-  osx:
-    homebrew:
-      packages: [gcc]
+  osx: [gcc]
 git:
-  osx:
-    homebrew:
-      packages: [git]
+  osx: [git]
 glut:
   osx:
-    homebrew:
-      packages: []
 graphviz:
-  osx:
-    homebrew:
-      packages: [graphviz]
+  osx: [graphviz]
 gtest:
-  osx:
-    homebrew:
-      packages: [gtest]
+  osx: [gtest]
 gtk2:
-  osx:
-    homebrew:
-      packages: [gtk+]
+  osx: [gtk+]
 hddtemp:
   osx:
-    homebrew:
-      packages: []
 hdf5:
-  osx:
-    homebrew:
-      packages: [hdf5]
+  osx: [hdf5]
 jasper:
-  osx:
-    homebrew:
-      packages: [jasper]
+  osx: [jasper]
 libconsole-bridge-dev:
-  osx:
-    homebrew:
-      packages: [console_bridge]
+  osx: [console_bridge]
 libdc1394-dev:
-  osx:
-    homebrew:
-      packages: [libdc1394]
+  osx: [libdc1394]
 libflann:
-  osx:
-    homebrew:
-      packages: [flann]
+  osx: [flann]
 libflann-dev:
-  osx:
-    homebrew:
-      packages: [flann]
+  osx: [flann]
 libftdi-dev:
-  osx:
-    homebrew:
-      packages: [libftdi0]
+  osx: [libftdi0]
 libglew-dev:
-  osx:
-    homebrew:
-      packages: [glew]
+  osx: [glew]
 libgsl:
-  osx:
-    homebrew:
-      packages: [gsl]
+  osx: [gsl]
 libjpeg:
-  osx:
-    homebrew:
-      packages: [jpeg]
+  osx: [jpeg]
 liblapack-dev:
   osx:
-    homebrew:
-      packages: []
 libmysqlclient-dev:
-  osx:
-    homebrew:
-      packages: [mysql]
+  osx: [mysql]
 libncurses-dev:
   osx:
-    homebrew:
-      packages: []
 libogg:
-  osx:
-    homebrew:
-      packages: [libogg]
+  osx: [libogg]
 libogre-dev:
-  osx:
-    homebrew:
-      packages: [ogre]
+  osx: [ogre]
 libopencv-dev:
-  osx:
-    homebrew:
-      packages: [opencv]
+  osx: [opencv]
 libopenni-dev:
-  osx:
-    homebrew:
-      packages: [openni]
+  osx: [openni]
 libopenni-sensor-primesense-dev:
-  osx:
-    homebrew:
-      packages: [totakke/openni/sensor-kinect]
+  osx: [totakke/openni/sensor-kinect]
 libpcap:
   osx:
-    homebrew:
-      packages: []
 libpcl-all:
-  osx:
-    homebrew:
-      packages: [pcl]
+  osx: [pcl]
 libpcl-all-dev:
-  osx:
-    homebrew:
-      packages: [pcl]
+  osx: [pcl]
 libpgm:
-  osx:
-    homebrew:
-      packages: [libpgm]
+  osx: [libpgm]
 libpng12-dev:
-  osx:
-    homebrew:
-      packages: [libpng]
+  osx: [libpng]
 libpoco-dev:
-  osx:
-    homebrew:
-      packages: [poco]
+  osx: [poco]
 libqglviewer-qt4-dev:
-  osx:
-    homebrew:
-      packages: [libqglviewer]
+  osx: [libqglviewer]
 libqhull:
-  osx:
-    homebrew:
-      packages: [qhull]
+  osx: [qhull]
 libqt4:
-  osx:
-    homebrew:
-      packages: [qt]
+  osx: [qt]
 libqt4-dev:
-  osx:
-    homebrew:
-      packages: [qt]
+  osx: [qt]
 libqt4-opengl-dev:
-  osx:
-    homebrew:
-      packages: [qt]
+  osx: [qt]
 libreadline:
-  osx:
-    homebrew:
-      packages: [readline]
+  osx: [readline]
 libreadline-dev:
-  osx:
-    homebrew:
-      packages: [readline]
+  osx: [readline]
 libtbb:
-  osx:
-    homebrew:
-      packages: [tbb]
+  osx: [tbb]
 libtheora:
-  osx:
-    homebrew:
-      packages: [theora]
+  osx: [theora]
 libtiff-dev:
-  osx:
-    homebrew:
-      packages: [libtiff]
+  osx: [libtiff]
 libtiff4-dev:
-  osx:
-    homebrew:
-      packages: [libtiff]
+  osx: [libtiff]
 libtool:
   osx:
-    homebrew:
-      packages: []
 liburdfdom-dev:
-  osx:
-    homebrew:
-      packages: [urdfdom]
+  osx: [urdfdom]
 liburdfdom-headers-dev:
-  osx:
-    homebrew:
-      packages: [urdfdom_headers]
+  osx: [urdfdom_headers]
 libusb:
-  osx:
-    homebrew:
-      packages: [libusb-compat]
+  osx: [libusb-compat]
 libusb-1.0:
-  osx:
-    homebrew:
-      packages: [libusb]
+  osx: [libusb]
 libusb-1.0-dev:
-  osx:
-    homebrew:
-      packages: [libusb]
+  osx: [libusb]
 libusb-dev:
-  osx:
-    homebrew:
-      packages: [libusb-compat]
+  osx: [libusb-compat]
 libv4l-dev:
   osx:
-    homebrew:
-      packages: []
 libvtk:
   osx:
-    homebrew:
-      options: [--python, --qt]
-      packages: [vtk]
+    any_version:
+      homebrew:
+        options: [--python, --qt]
+        packages: [vtk]
 libx11:
   osx:
-    homebrew:
-      packages: []
 libxaw:
   osx:
-    homebrew:
-      packages: []
 libxext:
   osx:
-    homebrew:
-      packages: []
 libxml2:
   osx:
-    homebrew:
-      packages: []
 libxrandr:
   osx:
-    homebrew:
-      packages: []
 libxslt:
-  osx:
-    homebrew:
-      packages: [libxslt]
+  osx: [libxslt]
 libxxf86vm:
   osx:
-    homebrew:
-      packages: []
 log4cxx:
-  osx:
-    homebrew:
-      packages: [log4cxx]
+  osx: [log4cxx]
 lua-dev:
-  osx:
-    homebrew:
-      packages: [lua]
+  osx: [lua]
 lz4:
-  osx:
-    homebrew:
-      packages: [lz4]
+  osx: [lz4]
 mercurial:
   osx:
-    pip:
-      packages: [mercurial]
+    any_version:
+      pip: [mercurial]
 mongodb-dev:
-  osx:
-    homebrew:
-      packages: [mongodb-dev]
+  osx: [mongodb-dev]
 netcdf:
-  osx:
-    homebrew:
-      packages: [netcdf]
+  osx: [netcdf]
 netpbm:
-  osx:
-    homebrew:
-      packages: [netpbm]
+  osx: [netpbm]
 nvidia-cg:
   osx:
-    homebrew:
-      packages: []
 omniorb:
-  osx:
-    homebrew:
-      packages: [omniorb]
+  osx: [omniorb]
 opencv2:
-  osx:
-    homebrew:
-      packages: [opencv]
+  osx: [opencv]
 opencv2.3:
-  osx:
-    homebrew:
-      packages: [opencv]
+  osx: [opencv]
 opengl:
   osx:
-    homebrew:
-      packages: []
 openmpi:
-  osx:
-    homebrew:
-      packages: [open-mpi]
+  osx: [open-mpi]
 pcre:
-  osx:
-    homebrew:
-      packages: [pcre++]
+  osx: [pcre++]
 pkg-config:
-  osx:
-    homebrew:
-      packages: [pkg-config]
+  osx: [pkg-config]
 protobuf-dev:
-  osx:
-    homebrew:
-      packages: [protobuf]
+  osx: [protobuf]
 python:
   osx:
-    homebrew:
-      packages: []
 python-argparse:
   osx:
-    pip:
-      packages: [argparse]
+    any_version:
+      pip: [argparse]
 python-coverage:
   osx:
-    pip:
-      packages: [coverage]
+    any_version:
+      pip: [coverage]
 python-empy:
   osx:
-    pip:
-      packages: [empy]
+    any_version:
+      pip: [empy]
 python-gtk2:
   osx:
-    pip:
-      packages: []
+    any_version:
+      pip:
 python-imaging:
   osx:
-    pip:
-      packages: [PIL]
+    any_version:
+      pip: [PIL]
 python-kitchen:
   osx:
-    pip:
-      packages: [kitchen]
+    any_version:
+      pip: [kitchen]
 python-matplotlib:
   osx:
-    pip:
-      depends: [pkg-config, freetype, libpng12-dev]
-      packages: [matplotlib]
+    any_version:
+      pip:
+        depends: [pkg-config, freetype, libpng12-dev]
+        packages: [matplotlib]
 python-mock:
   osx:
-    pip:
-      packages: [mock]
+    any_version:
+      pip: [mock]
 python-netifaces:
   osx:
-    pip:
-      packages: [netifaces]
+    any_version:
+      pip: [netifaces]
 python-nose:
   osx:
-    pip:
-      packages: [nose]
+    any_version:
+      pip: [nose]
 python-numpy:
   osx:
-    pip:
-      packages: [numpy]
+    any_version:
+      pip: [numpy]
 python-omniorb:
-  osx:
-    homebrew:
-      packages: [omniorb]
+  osx: [omniorb]
 python-opencv:
-  osx:
-    homebrew:
-      packages: [opencv]
+  osx: [opencv]
 python-opengl:
   osx:
-    pip:
-      packages: [PyOpenGL]
+    any_version:
+      pip: [PyOpenGL]
 python-paramiko:
   osx:
-    pip:
-      packages: [paramiko]
+    any_version:
+      pip: [paramiko]
 python-psutil:
   osx:
-    pip:
-      packages: [psutil]
+    any_version:
+      pip: [psutil]
 python-pyassimp:
-  osx:
-    homebrew:
-      packages: [pyassimp]
+  osx: [pyassimp]
 python-qt-bindings:
-  osx:
-    homebrew:
-      packages: [pyside, shiboken, pyqt, sip]
+  osx: [pyside, shiboken, pyqt, sip]
 python-qt-bindings-gl:
-  osx:
-    homebrew:
-      packages: [pyqt]
+  osx: [pyqt]
 python-qt-bindings-qwt5:
-  osx:
-    homebrew:
-      packages: [pyqwt]
+  osx: [pyqwt]
 python-rospkg:
   osx:
-    pip:
-      packages: [rospkg]
+    any_version:
+      pip: [rospkg]
 python-scipy:
   osx:
-    pip:
-      depends: [gfortran]
-      packages: [scipy]
+    any_version:
+      pip:
+        depends: [gfortran]
+        packages: [scipy]
 python-setuptools:
   osx:
-    pip:
-      packages: [setuptools]
+    any_version:
+      pip: [setuptools]
 python-sip:
-  osx:
-    homebrew:
-      packages: [sip]
+  osx: [sip]
 python-sip4:
-  osx:
-    homebrew:
-      packages: [sip]
+  osx: [sip]
 python-sphinx:
   osx:
-    pip:
-      packages: [Sphinx]
+    any_version:
+      pip: [Sphinx]
 python-support:
   osx:
-    pip:
-      packages: []
+    any_version:
+      pip:
 python-yaml:
   osx:
-    pip:
-      depends: [yaml]
-      packages: [PyYAML]
+    any_version:
+      pip:
+        depends: [yaml]
+        packages: [PyYAML]
 qt4-qmake:
-  osx:
-    homebrew:
-      packages: [qt]
+  osx: [qt]
 rake:
   osx:
-    homebrew:
-      packages: []
 redis-server:
-  ox:
-    homebrew:
-      packages: [redis]
+  ox: [redis]
 ruby:
   osx:
-    homebrew:
-      packages: []
 sbcl:
-  osx:
-    homebrew:
-      packages: [sbcl]
+  osx: [sbcl]
 scons:
-  osx:
-    homebrew:
-      packages: [scons]
+  osx: [scons]
 sdl-image:
-  osx:
-    homebrew:
-      packages: [sdl_image]
+  osx: [sdl_image]
 subversion:
-  osx:
-    homebrew:
-      packages: [subversion]
+  osx: [subversion]
 suitesparse:
-  osx:
-    homebrew:
-      packages: [suite-sparse]
+  osx: [suite-sparse]
 swig-wx:
-  osx:
-    homebrew:
-      packages: [swig-wx]
+  osx: [swig-wx]
 tango-icon-theme:
-  osx:
-    homebrew:
-      packages: [tango-icon-theme]
+  osx: [tango-icon-theme]
 tar:
   osx:
-    homebrew:
-      packages: []
 tbb:
-  osx:
-    homebrew:
-      packages: [tbb]
+  osx: [tbb]
 texlive-fonts-extra:
   osx:
-    homebrew:
-      packages: []
 texlive-fonts-recommended:
   osx:
-    homebrew:
-      packages: []
 texlive-latex-base:
   osx:
-    homebrew:
-      packages: []
 texlive-latex-extra:
   osx:
-    homebrew:
-      packages: []
 texlive-latex-recommended:
   osx:
-    homebrew:
-      packages: []
 tinyxml:
-  osx:
-    homebrew:
-      packages: [tinyxml]
+  osx: [tinyxml]
 unzip:
   osx:
-    homebrew:
-      packages: []
 uuid:
-  osx:
-    homebrew:
-      packages: [uuid]
+  osx: [uuid]
 wxpython:
   osx:
-    homebrew:
-      packages: []
 wxwidgets:
   osx:
-    homebrew:
-      depends: [wxpython]
+    any_version:
+      homebrew:
+        depends: [wxpython]
 yaml:
-  osx:
-    homebrew:
-      packages: [libyaml]
+  osx: [libyaml]
 yaml-cpp:
   osx:
-    homebrew:
-      depends: [yaml]
-      packages: [yaml-cpp-0.3]
+    any_version:
+      homebrew:
+        depends: [yaml]
+        packages: [yaml-cpp-0.3]
 zlib:
   osx:
-    homebrew:
-      packages: []
 zziplib:
-  osx:
-    homebrew:
-      packages: [libzzip]
+  osx: [libzzip]

@@ -4,75 +4,48 @@ facets:
   osx:
     macports: [rb-facets]
   ubuntu:
-    lucid:
-      apt: [libfacets-ruby]
-    oneiric:
-      apt: [libfacets-ruby]
-    precise:
-      apt: [ruby-facets]
-    quantal:
-      apt: [ruby-facets]
-    raring:
-      apt: [ruby-facets]
-    saucy:
-      apt: [ruby-facets]
-    trusty:
-      apt: [ruby-facets]
+    lucid: [libfacets-ruby]
+    oneiric: [libfacets-ruby]
+    precise: [ruby-facets]
+    quantal: [ruby-facets]
+    raring: [ruby-facets]
+    saucy: [ruby-facets]
+    trusty: [ruby-facets]
 flexmock:
   fedora: [rubygem-flexmock]
   osx:
     macports: [rb-flexmock]
   ubuntu:
-    lucid:
-      apt: [libflexmock-ruby]
-    oneiric:
-      apt: [libflexmock-ruby]
-    precise:
-      apt: [ruby-flexmock]
-    quantal:
-      apt: [ruby-flexmock]
-    raring:
-      apt: [ruby-flexmock]
-    saucy:
-      apt: [ruby-flexmock]
-    trusty:
-      apt: [ruby-flexmock]
+    lucid: [libflexmock-ruby]
+    oneiric: [libflexmock-ruby]
+    precise: [ruby-flexmock]
+    quantal: [ruby-flexmock]
+    raring: [ruby-flexmock]
+    saucy: [ruby-flexmock]
+    trusty: [ruby-flexmock]
 hoe:
   arch: [ruby-hoe]
   fedora: [rubygem-hoe]
   ubuntu:
-    oneiric:
-      apt: [ruby-hoe]
-    precise:
-      apt: [ruby-hoe]
-    quantal:
-      apt: [ruby-hoe]
-    raring:
-      apt: [ruby-hoe]
-    saucy:
-      apt: [ruby-hoe]
-    trusty:
-      apt: [ruby-hoe]
+    oneiric: [ruby-hoe]
+    precise: [ruby-hoe]
+    quantal: [ruby-hoe]
+    raring: [ruby-hoe]
+    saucy: [ruby-hoe]
+    trusty: [ruby-hoe]
 nokogiri:
   arch: [ruby-nokogiri]
   fedora: [rubygem-nokogiri]
   osx:
     macports: [rb-nokogiri]
   ubuntu:
-    lucid:
-      apt: [libnokogiri-ruby]
-    oneiric:
-      apt: [libnokogiri-ruby]
-    precise:
-      apt: [ruby-nokogiri]
-    quantal:
-      apt: [ruby-nokogiri]
-    raring:
-      apt: [ruby-nokogiri]
-    saucy:
-      apt: [ruby-nokogiri]
-    trusty:
-      apt: [ruby-nokogiri]
+    lucid: [libnokogiri-ruby]
+    oneiric: [libnokogiri-ruby]
+    precise: [ruby-nokogiri]
+    quantal: [ruby-nokogiri]
+    raring: [ruby-nokogiri]
+    saucy: [ruby-nokogiri]
+    trusty: [ruby-nokogiri]
 rake:
   arch: [ruby]
   fedora: [rubygem-rake, rubygem-rake-compiler]

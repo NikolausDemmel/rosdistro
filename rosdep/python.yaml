@@ -83,17 +83,17 @@ python-argparse:
     natty: [python-argparse]
     oneiric: [python-argparse]
     precise:
-      packages: []
+      packages:
     quantal:
-      packages: []
+      packages:
     raring:
-      packages: []
+      packages:
     saucy:
-      packages: []
+      packages:
     trusty:
-      packages: []
+      packages:
     trusty_python3:
-      packages: []
+      packages:
 python-avahi:
   arch: [avahi]
   debian: [python-avahi]
@@ -364,7 +364,7 @@ python-gtk2:
   debian: [python-gtk2]
   fedora: [pygtk2]
   freebsd: [py-gtk2]
-  gentoo: ['=dev-python/pygtk-2*']
+  gentoo: [=dev-python/pygtk-2*]
   macports: [py27-gtk]
   opensuse: [python-gtk]
   rhel: [pygtk2]
@@ -715,12 +715,10 @@ python-pyassimp:
     wheezy: [python-pyassimp]
   fedora: [assimp-python]
   osx:
-    lion:
-      homebrew:
-        packages: [pyassimp]
+    lion: [pyassimp]
   ubuntu:
-    lucid: []
-    oneiric: []
+    lucid:
+    oneiric:
     precise: [python-pyassimp]
     quantal: [python-pyassimp]
     raring: [python-pyassimp]
@@ -1175,10 +1173,10 @@ python-sip4:
 python-sklearn:
   fedora: [python-scikit-learn]
   ubuntu:
-    lucid: []
-    maverick: []
-    natty: []
-    oneiric: []
+    lucid:
+    maverick:
+    natty:
+    oneiric:
     precise: [python-sklearn]
     quantal: [python-sklearn]
     raring: [python-sklearn]
