@@ -4,48 +4,30 @@ facets:
   osx:
     macports: [rb-facets]
   ubuntu:
+    any_version: [ruby-facets]
     lucid: [libfacets-ruby]
     oneiric: [libfacets-ruby]
-    precise: [ruby-facets]
-    quantal: [ruby-facets]
-    raring: [ruby-facets]
-    saucy: [ruby-facets]
-    trusty: [ruby-facets]
 flexmock:
   fedora: [rubygem-flexmock]
   osx:
     macports: [rb-flexmock]
   ubuntu:
+    any_version: [ruby-flexmock]
     lucid: [libflexmock-ruby]
     oneiric: [libflexmock-ruby]
-    precise: [ruby-flexmock]
-    quantal: [ruby-flexmock]
-    raring: [ruby-flexmock]
-    saucy: [ruby-flexmock]
-    trusty: [ruby-flexmock]
 hoe:
   arch: [ruby-hoe]
   fedora: [rubygem-hoe]
-  ubuntu:
-    oneiric: [ruby-hoe]
-    precise: [ruby-hoe]
-    quantal: [ruby-hoe]
-    raring: [ruby-hoe]
-    saucy: [ruby-hoe]
-    trusty: [ruby-hoe]
+  ubuntu: [ruby-hoe]
 nokogiri:
   arch: [ruby-nokogiri]
   fedora: [rubygem-nokogiri]
   osx:
     macports: [rb-nokogiri]
   ubuntu:
+    any_version: [ruby-nokogiri]
     lucid: [libnokogiri-ruby]
     oneiric: [libnokogiri-ruby]
-    precise: [ruby-nokogiri]
-    quantal: [ruby-nokogiri]
-    raring: [ruby-nokogiri]
-    saucy: [ruby-nokogiri]
-    trusty: [ruby-nokogiri]
 rake:
   arch: [ruby]
   fedora: [rubygem-rake, rubygem-rake-compiler]

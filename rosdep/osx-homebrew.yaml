@@ -38,10 +38,6 @@ eigen:
       homebrew:
         depends: [gfortran]
         packages: [eigen]
-epydoc:
-  osx:
-    any_version:
-      pip: [epydoc]
 ffmpeg:
   osx: [ffmpeg]
 flex:
@@ -182,10 +178,6 @@ lua-dev:
   osx: [lua]
 lz4:
   osx: [lz4]
-mercurial:
-  osx:
-    any_version:
-      pip: [mercurial]
 mongodb-dev:
   osx: [mongodb-dev]
 netcdf:
@@ -212,68 +204,12 @@ protobuf-dev:
   osx: [protobuf]
 python:
   osx:
-python-argparse:
-  osx:
-    any_version:
-      pip: [argparse]
-python-coverage:
-  osx:
-    any_version:
-      pip: [coverage]
-python-empy:
-  osx:
-    any_version:
-      pip: [empy]
 python-gtk2:
   osx:
-    any_version:
-      pip:
-python-imaging:
-  osx:
-    any_version:
-      pip: [PIL]
-python-kitchen:
-  osx:
-    any_version:
-      pip: [kitchen]
-python-matplotlib:
-  osx:
-    any_version:
-      pip:
-        depends: [pkg-config, freetype, libpng12-dev]
-        packages: [matplotlib]
-python-mock:
-  osx:
-    any_version:
-      pip: [mock]
-python-netifaces:
-  osx:
-    any_version:
-      pip: [netifaces]
-python-nose:
-  osx:
-    any_version:
-      pip: [nose]
-python-numpy:
-  osx:
-    any_version:
-      pip: [numpy]
 python-omniorb:
   osx: [omniorb]
 python-opencv:
   osx: [opencv]
-python-opengl:
-  osx:
-    any_version:
-      pip: [PyOpenGL]
-python-paramiko:
-  osx:
-    any_version:
-      pip: [paramiko]
-python-psutil:
-  osx:
-    any_version:
-      pip: [psutil]
 python-pyassimp:
   osx: [pyassimp]
 python-qt-bindings:
@@ -282,38 +218,12 @@ python-qt-bindings-gl:
   osx: [pyqt]
 python-qt-bindings-qwt5:
   osx: [pyqwt]
-python-rospkg:
-  osx:
-    any_version:
-      pip: [rospkg]
-python-scipy:
-  osx:
-    any_version:
-      pip:
-        depends: [gfortran]
-        packages: [scipy]
-python-setuptools:
-  osx:
-    any_version:
-      pip: [setuptools]
 python-sip:
   osx: [sip]
 python-sip4:
   osx: [sip]
-python-sphinx:
-  osx:
-    any_version:
-      pip: [Sphinx]
 python-support:
   osx:
-    any_version:
-      pip:
-python-yaml:
-  osx:
-    any_version:
-      pip:
-        depends: [yaml]
-        packages: [PyYAML]
 qt4-qmake:
   osx: [qt]
 rake:
