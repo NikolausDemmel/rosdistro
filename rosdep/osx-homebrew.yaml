@@ -1,27 +1,27 @@
 apr:
-  osx:
+  osx: []
 assimp:
   osx: [assimp]
 assimp-dev:
   osx: [assimp]
 atlas:
-  osx:
+  osx: []
 autoconf:
-  osx:
+  osx: []
 automake:
-  osx:
+  osx: []
 bazaar:
   osx: [bazaar]
 bison:
-  osx:
+  osx: []
 boost:
   osx: [boost]
 bullet:
   osx: [bullet]
 bzip2:
-  osx:
+  osx: []
 checkinstall:
-  osx:
+  osx: []
 cmake:
   osx: [cmake]
 collada-dom:
@@ -29,7 +29,7 @@ collada-dom:
 cppunit:
   osx: [cppunit]
 curl:
-  osx:
+  osx: []
 doxygen:
   osx: [doxygen]
 eigen:
@@ -41,7 +41,7 @@ eigen:
 ffmpeg:
   osx: [ffmpeg]
 flex:
-  osx:
+  osx: []
 fltk:
   osx: [fltk]
 freeimage:
@@ -51,13 +51,13 @@ freetype:
 gazebo:
   osx: [gazebo]
 gccxml:
-  osx:
+  osx: []
 gfortran:
   osx: [gcc]
 git:
   osx: [git]
 glut:
-  osx:
+  osx: []
 graphviz:
   osx: [graphviz]
 gtest:
@@ -65,7 +65,7 @@ gtest:
 gtk2:
   osx: [gtk+]
 hddtemp:
-  osx:
+  osx: []
 hdf5:
   osx: [hdf5]
 jasper:
@@ -87,11 +87,11 @@ libgsl:
 libjpeg:
   osx: [jpeg]
 liblapack-dev:
-  osx:
+  osx: []
 libmysqlclient-dev:
   osx: [mysql]
 libncurses-dev:
-  osx:
+  osx: []
 libogg:
   osx: [libogg]
 libogre-dev:
@@ -103,7 +103,7 @@ libopenni-dev:
 libopenni-sensor-primesense-dev:
   osx: [totakke/openni/sensor-kinect]
 libpcap:
-  osx:
+  osx: []
 libpcl-all:
   osx: [pcl]
 libpcl-all-dev:
@@ -137,7 +137,7 @@ libtiff-dev:
 libtiff4-dev:
   osx: [libtiff]
 libtool:
-  osx:
+  osx: []
 liburdfdom-dev:
   osx: [urdfdom]
 liburdfdom-headers-dev:
@@ -151,7 +151,7 @@ libusb-1.0-dev:
 libusb-dev:
   osx: [libusb-compat]
 libv4l-dev:
-  osx:
+  osx: []
 libvtk:
   osx:
     any_version:
@@ -159,19 +159,19 @@ libvtk:
         options: [--python, --qt]
         packages: [vtk]
 libx11:
-  osx:
+  osx: []
 libxaw:
-  osx:
+  osx: []
 libxext:
-  osx:
+  osx: []
 libxml2:
-  osx:
+  osx: []
 libxrandr:
-  osx:
+  osx: []
 libxslt:
   osx: [libxslt]
 libxxf86vm:
-  osx:
+  osx: []
 log4cxx:
   osx: [log4cxx]
 lua-dev:
@@ -185,7 +185,7 @@ netcdf:
 netpbm:
   osx: [netpbm]
 nvidia-cg:
-  osx:
+  osx: []
 omniorb:
   osx: [omniorb]
 opencv2:
@@ -193,7 +193,7 @@ opencv2:
 opencv2.3:
   osx: [opencv]
 opengl:
-  osx:
+  osx: []
 openmpi:
   osx: [open-mpi]
 pcre:
@@ -203,9 +203,9 @@ pkg-config:
 protobuf-dev:
   osx: [protobuf]
 python:
-  osx:
+  osx: []
 python-gtk2:
-  osx:
+  osx: []
 python-omniorb:
   osx: [omniorb]
 python-opencv:
@@ -223,15 +223,15 @@ python-sip:
 python-sip4:
   osx: [sip]
 python-support:
-  osx:
+  osx: []
 qt4-qmake:
   osx: [qt]
 rake:
-  osx:
+  osx: []
 redis-server:
   ox: [redis]
 ruby:
-  osx:
+  osx: []
 sbcl:
   osx: [sbcl]
 scons:
@@ -247,27 +247,27 @@ swig-wx:
 tango-icon-theme:
   osx: [tango-icon-theme]
 tar:
-  osx:
+  osx: []
 tbb:
   osx: [tbb]
 texlive-fonts-extra:
-  osx:
+  osx: []
 texlive-fonts-recommended:
-  osx:
+  osx: []
 texlive-latex-base:
-  osx:
+  osx: []
 texlive-latex-extra:
-  osx:
+  osx: []
 texlive-latex-recommended:
-  osx:
+  osx: []
 tinyxml:
   osx: [tinyxml]
 unzip:
-  osx:
+  osx: []
 uuid:
   osx: [uuid]
 wxpython:
-  osx:
+  osx: []
 wxwidgets:
   osx:
     any_version:
@@ -282,6 +282,6 @@ yaml-cpp:
         depends: [yaml]
         packages: [yaml-cpp-0.3]
 zlib:
-  osx:
+  osx: []
 zziplib:
   osx: [libzzip]

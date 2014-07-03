@@ -55,7 +55,7 @@ python-argparse:
       macports: [py27-argparse]
   ubuntu:
     any_version:
-      packages:
+      packages: []
     lucid: [python-argparse]
     maverick: [python-argparse]
     natty: [python-argparse]
@@ -400,8 +400,8 @@ python-pyassimp:
     lion: [pyassimp]
   ubuntu:
     any_version: [python-pyassimp]
-    lucid:
-    oneiric:
+    lucid: []
+    oneiric: []
 python-pydot:
   any_os:
     pip: [pydot]
@@ -661,10 +661,10 @@ python-sklearn:
   fedora: [python-scikit-learn]
   ubuntu:
     any_version: [python-sklearn]
-    lucid:
-    maverick:
-    natty:
-    oneiric:
+    lucid: []
+    maverick: []
+    natty: []
+    oneiric: []
 python-sphinx:
   any_os:
     pip: [Sphinx]
