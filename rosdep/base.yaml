@@ -36,8 +36,10 @@ apr:
   fedora: [apr-devel, apr-util]
   freebsd: [builtin]
   gentoo: [dev-libs/apr, dev-libs/apr-util]
-  macports: [apr, apr-util]
   opensuse: [libapr1, libapr-util1]
+  osx:
+    any_version:
+      macports: [apr, apr-util]
   rhel: [apr-devel, apr-util]
   ubuntu: [libapr1-dev, libaprutil1-dev]
 arista:
@@ -61,8 +63,10 @@ assimp:
     wheezy: [libassimp-dev]
   fedora: [assimp]
   gentoo: [media-libs/assimp]
-  macports: [assimp]
   opensuse: [libassimp3]
+  osx:
+    any_version:
+      macports: [assimp]
   rhel: [assimp-devel]
   ubuntu:
     any_version: [libassimp-dev]
@@ -86,7 +90,9 @@ atlas:
   debian: [libatlas-base-dev]
   fedora: [atlas-devel]
   gentoo: [media-libs/atlas-c++]
-  macports: [atlas]
+  osx:
+    any_version:
+      macports: [atlas]
   ubuntu: [libatlas-base-dev]
 autoconf:
   arch: [autoconf]
@@ -94,8 +100,10 @@ autoconf:
   fedora: [autoconf]
   freebsd: [autoconf213, autoconf268]
   gentoo: [sys-devel/autoconf]
-  macports: [autoconf]
   opensuse: [autoconf]
+  osx:
+    any_version:
+      macports: [autoconf]
   rhel: [autoconf]
   ubuntu: [autoconf]
 automake:
@@ -104,8 +112,10 @@ automake:
   fedora: [automake]
   freebsd: [automake14, automake111]
   gentoo: [sys-devel/automake]
-  macports: [automake]
   opensuse: [automake]
+  osx:
+    any_version:
+      macports: [automake]
   rhel: [automake]
   ubuntu: [automake]
 autopoint:
@@ -141,8 +151,10 @@ bazaar:
   fedora: [bazaar]
   freebsd: [bazaar]
   gentoo: [dev-vcs/bzr]
-  macports: [bazaar]
   opensuse: [bzr]
+  osx:
+    any_version:
+      macports: [bazaar]
   ubuntu: [bzr]
 beep:
   arch: [beep]
@@ -161,7 +173,9 @@ bison:
   debian: [bison]
   fedora: [bison]
   gentoo: [sys-devel/bison]
-  macports: [bison]
+  osx:
+    any_version:
+      macports: [bison]
   ubuntu: [bison]
 bluez:
   arch: [bluez]
@@ -179,8 +193,10 @@ boost:
   fedora: [boost-devel]
   freebsd: [boost-python-libs]
   gentoo: [dev-libs/boost]
-  macports: [boost]
   opensuse: [boost-devel]
+  osx:
+    any_version:
+      macports: [boost]
   rhel: [boost-devel]
   ubuntu:
     any_version: [libboost-all-dev]
@@ -195,8 +211,10 @@ bullet:
     sid: [libbullet-dev]
   fedora: [bullet-devel]
   gentoo: [sci-physics/bullet]
-  macports: [bullet]
   opensuse: [libbullet]
+  osx:
+    any_version:
+      macports: [bullet]
   ubuntu: [libbullet-dev]
 bzip2:
   arch: [bzip2]
@@ -205,8 +223,10 @@ bzip2:
   fedora: [bzip2-devel]
   freebsd: [bzip2]
   gentoo: [app-arch/bzip2]
-  macports: [bzip2]
   opensuse: [libbz2-devel]
+  osx:
+    any_version:
+      macports: [bzip2]
   rhel: [bzip2-devel]
   ubuntu: [libbz2-dev]
 cgal:
@@ -224,8 +244,10 @@ cmake:
   debian: [cmake]
   fedora: [cmake]
   gentoo: [dev-util/cmake]
-  macports: [cmake]
   opensuse: [cmake]
+  osx:
+    any_version:
+      macports: [cmake]
   ubuntu: [cmake]
 coinor-libipopt-dev:
   arch: [coinor-all]
@@ -237,7 +259,9 @@ collada-dom:
   debian: [collada-dom-dev]
   fedora: [collada-dom-devel]
   gentoo: [media-libs/collada-dom]
-  macports: [collada-dom]
+  osx:
+    any_version:
+      macports: [collada-dom]
   ubuntu: [collada-dom-dev]
 comedi:
   fedora: [comedilib-devel]
@@ -259,8 +283,10 @@ cppunit:
   fedora: [cppunit-devel]
   freebsd: [cppunit]
   gentoo: [dev-util/cppunit]
-  macports: [cppunit]
   opensuse: [libcppunit-devel]
+  osx:
+    any_version:
+      macports: [cppunit]
   rhel: [cppunit-devel]
   ubuntu: [libcppunit-dev]
 curl:
@@ -269,8 +295,10 @@ curl:
   fedora: [libcurl-devel]
   freebsd: [curl]
   gentoo: [net-misc/curl]
-  macports: [curl]
   opensuse: [libcurl-devel]
+  osx:
+    any_version:
+      macports: [curl]
   rhel: [libcurl-devel]
   ubuntu: [libcurl4-openssl-dev]
 cvs:
@@ -289,7 +317,9 @@ doxygen:
   fedora: [doxygen]
   freebsd: [doxygen]
   gentoo: [app-doc/doxygen]
-  macports: [doxygen]
+  osx:
+    any_version:
+      macports: [doxygen]
   rhel: [doxygen]
   ubuntu: [doxygen]
 dpkg:
@@ -311,8 +341,10 @@ eigen:
   debian: [libeigen3-dev]
   fedora: [eigen3-devel]
   gentoo: [dev-cpp/eigen]
-  macports: [eigen3]
   opensuse: [libeigen3-devel]
+  osx:
+    any_version:
+      macports: [eigen3]
   rhel: [eigen3-devel]
   ubuntu: [libeigen3-dev]
 eigen2:
@@ -334,7 +366,9 @@ epydoc:
   fedora: [epydoc]
   freebsd: [epydoc]
   gentoo: [dev-python/epydoc]
-  macports: [py27-epydoc]
+  osx:
+    any_version:
+      macports: [py27-epydoc]
   ubuntu: [python-epydoc]
 f2c:
   arch: [f2c]
@@ -359,7 +393,9 @@ ffmpeg:
   debian: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
   fedora: [ffmpeg-devel]
   gentoo: [media-plugins/ffmpeg]
-  macports: [ffmpeg]
+  osx:
+    any_version:
+      macports: [ffmpeg]
   ubuntu:
     any_version: [libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
     lucid: [ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libswscale-dev]
@@ -380,7 +416,9 @@ flex:
   debian: [flex]
   fedora: [flex]
   gentoo: [sys-devel/flex]
-  macports: [flex]
+  osx:
+    any_version:
+      macports: [flex]
   ubuntu: [flex]
 fltk:
   arch: [fltk]
@@ -388,20 +426,26 @@ fltk:
   fedora: [fltk-devel, fltk-fluid]
   freebsd: [fltk]
   gentoo: [=x11-libs/fltk-1*]
-  macports: [fltk]
   opensuse: [fltk-devel]
+  osx:
+    any_version:
+      macports: [fltk]
   ubuntu: [fluid, libfltk1.1-dev]
 freeimage:
   arch: [freeimage]
   debian: [libfreeimage-dev]
   fedora: [freeimage-devel]
   gentoo: [media-libs/freeimage]
-  macports: [freeimage]
+  osx:
+    any_version:
+      macports: [freeimage]
   rhel: [freeimage-devel]
   ubuntu: [libfreeimage-dev]
 freetype:
   fedora: [freetype]
-  macports: [freetype]
+  osx:
+    any_version:
+      macports: [freetype]
 ftdi-eeprom:
   arch: [ftdi-eeprom]
   debian: [ftdi-eeprom]
@@ -434,14 +478,18 @@ gccxml:
   debian: [gccxml]
   fedora: [gccxml]
   gentoo: [dev-cpp/gccxml]
-  macports: [gccxml-devel]
+  osx:
+    any_version:
+      macports: [gccxml-devel]
   ubuntu: [gccxml]
 gforth:
   arch: [gforth]
   debian: [gforth]
   fedora: [gforth]
   gentoo: [dev-lang/gforth]
-  macports: [gforth]
+  osx:
+    any_version:
+      macports: [gforth]
   ubuntu: [gforth]
 gfortran:
   arch: [gcc-fortran]
@@ -461,8 +509,10 @@ git:
   fedora: [git]
   freebsd: [git]
   gentoo: [dev-vcs/git]
-  macports: [git-core]
   opensuse: [git-core]
+  osx:
+    any_version:
+      macports: [git-core]
   ubuntu: [git-core]
 glc:
   arch: [glc]
@@ -472,7 +522,9 @@ glut:
   debian: [freeglut3-dev]
   fedora: [freeglut-devel]
   gentoo: [media-libs/freeglut]
-  macports: [freeglut]
+  osx:
+    any_version:
+      macports: [freeglut]
   rhel: [freeglut-devel]
   ubuntu: [freeglut3-dev]
 gnuplot:
@@ -494,7 +546,9 @@ graphicsmagick:
   debian: [libgraphicsmagick++1-dev]
   fedora: [GraphicsMagick-c++-devel]
   gentoo: [media-gfx/imagemagick]
-  macports: [GraphicsMagick]
+  osx:
+    any_version:
+      macports: [GraphicsMagick]
   ubuntu: [libgraphicsmagick++1-dev]
 graphviz:
   arch: [graphviz]
@@ -502,8 +556,10 @@ graphviz:
   fedora: [graphviz]
   freebsd: [graphviz]
   gentoo: [media-gfx/graphviz]
-  macports: [graphviz]
   opensuse: [graphviz]
+  osx:
+    any_version:
+      macports: [graphviz]
   rhel: [graphviz]
   ubuntu: [graphviz]
 gringo:
@@ -537,8 +593,10 @@ gtest:
   fedora: [gtest-devel]
   freebsd: [googletest]
   gentoo: [dev-cpp/gtest]
-  macports: [ros-gtest]
   opensuse: [googletest-devel]
+  osx:
+    any_version:
+      macports: [ros-gtest]
   rhel: [gtest-devel]
   ubuntu: [libgtest-dev]
 gtk-doc-tools:
@@ -553,8 +611,10 @@ gtk2:
   fedora: [gtk2-devel]
   freebsd: [gtk20]
   gentoo: [x11-libs/gtk+]
-  macports: [gtk2]
   opensuse: [gtk2-devel]
+  osx:
+    any_version:
+      macports: [gtk2]
   rhel: [gtk2-devel]
   ubuntu: [libgtk2.0-dev]
 gv:
@@ -568,15 +628,19 @@ hddtemp:
   debian: [hddtemp]
   fedora: [hddtemp]
   gentoo: [app-admin/hddtemp]
-  macports: [python27]
   opensuse: [hddtemp]
+  osx:
+    any_version:
+      macports: [python27]
   ubuntu: [hddtemp]
 hdf5:
   arch: [hdf5]
   debian: [libhdf5-serial-dev]
   fedora: [hdf5-devel]
   gentoo: [sci-libs/hdf5]
-  macports: [hdf5]
+  osx:
+    any_version:
+      macports: [hdf5]
   ubuntu: [libhdf5-serial-dev]
 hostapd:
   arch: [hostapd]
@@ -622,8 +686,10 @@ jasper:
   debian: [libjasper-dev]
   fedora: [jasper-devel]
   gentoo: [media-libs/jasper]
-  macports: [jasper]
   opensuse: [libjasper-devel]
+  osx:
+    any_version:
+      macports: [jasper]
   ubuntu: [libjasper-dev]
 java:
   arch: [jdk7-openjdk]
@@ -805,7 +871,9 @@ libflann:
   debian: [libflann1.7]
   fedora: [flann]
   gentoo: [sci-libs/flann]
-  macports: [flann]
+  osx:
+    any_version:
+      macports: [flann]
   ubuntu:
     precise: [libflann1]
     quantal: [libflann1.7]
@@ -815,7 +883,9 @@ libflann-dev:
   debian: [libflann-dev]
   fedora: [flann-devel]
   gentoo: [sci-libs/flann]
-  macports: [flann]
+  osx:
+    any_version:
+      macports: [flann]
   ubuntu: [libflann-dev]
 libfreenect-dev:
   arch: [libfreenect]
@@ -897,7 +967,9 @@ libgsl:
   debian: [libgsl0-dev]
   fedora: [gsl]
   gentoo: [sci-libs/gsl]
-  macports: [gsl]
+  osx:
+    any_version:
+      macports: [gsl]
   ubuntu: [libgsl0-dev]
 libgstreamer-plugins-base0.10-0:
   arch: [gstreamer0.10-base-plugins]
@@ -962,8 +1034,10 @@ libjpeg:
   debian: [libjpeg8-dev]
   fedora: [libjpeg-turbo-devel]
   gentoo: [media-libs/libjpeg-turbo]
-  macports: [jpeg]
   opensuse: [libjpeg62-devel]
+  osx:
+    any_version:
+      macports: [jpeg]
   ubuntu:
     lucid: [libjpeg62-dev]
     maverick: [libjpeg62-dev]
@@ -1038,15 +1112,19 @@ libmysqlclient-dev:
     schrödinger’s: [mariadb]
     spherical: [mysql]
   gentoo: [dev-db/mariadb]
-  macports: [mysql5]
   opensuse: [libmysqlclient-devel]
+  osx:
+    any_version:
+      macports: [mysql5]
   ubuntu: [libmysqlclient-dev]
 libncurses-dev:
   arch: [ncurses]
   debian: [libncurses5-dev]
   fedora: [ncurses-devel]
   gentoo: [sys-libs/ncurses]
-  macports: [ncurses]
+  osx:
+    any_version:
+      macports: [ncurses]
   ubuntu: [libncurses5-dev]
 libnl-3:
   arch: [libnl]
@@ -1069,8 +1147,10 @@ libogg:
   debian: [libogg-dev]
   fedora: [libogg-devel]
   gentoo: [media-libs/libogg]
-  macports: [libogg]
   opensuse: [libogg-devel]
+  osx:
+    any_version:
+      macports: [libogg]
   ubuntu: [libogg-dev]
 libogre-dev:
   arch: [ogre]
@@ -1080,8 +1160,10 @@ libogre-dev:
     wheezy: [libogre-dev]
   fedora: [ogre-devel]
   gentoo: [dev-games/ogre]
-  macports: [ogre]
   opensuse: [ogre-devel]
+  osx:
+    any_version:
+      macports: [ogre]
   rhel: [ogre-devel]
   ubuntu:
     lucid: [libogre-dev]
@@ -1103,7 +1185,9 @@ libopencv-dev:
   arch: [opencv]
   fedora: [opencv-devel]
   gentoo: [media-libs/opencv]
-  macports: [opencv]
+  osx:
+    any_version:
+      macports: [opencv]
   ubuntu:
     saucy: [libopencv-dev]
     trusty: [libopencv-dev]
@@ -1155,7 +1239,9 @@ libpcap:
       packages: [libpcap0.8-dev]
   fedora: [libpcap-devel]
   gentoo: [net-libs/libpcap]
-  macports: [libpcap]
+  osx:
+    any_version:
+      macports: [libpcap]
   ubuntu:
     apt:
       packages: [libpcap0.8-dev]
@@ -1163,15 +1249,19 @@ libpcl-all:
   arch: [pcl]
   fedora: [pcl, pcl-tools]
   gentoo: [pcl]
-  macports: [libpcl]
   opensuse: [pcl]
+  osx:
+    any_version:
+      macports: [libpcl]
   ubuntu: [libpcl-1.7-all]
 libpcl-all-dev:
   arch: [pcl]
   fedora: [pcl-devel]
   gentoo: [pcl]
-  macports: [libpcl]
   opensuse: [pcl]
+  osx:
+    any_version:
+      macports: [libpcl]
   ubuntu: [libpcl-1.7-all-dev]
 libpcsclite-dev:
   arch: [pcsclite]
@@ -1196,15 +1286,19 @@ libpng12-dev:
   debian: [libpng12-dev]
   fedora: [libpng-devel]
   gentoo: [media-libs/libpng]
-  macports: [libpng]
   opensuse: [libpng12-devel]
+  osx:
+    any_version:
+      macports: [libpng]
   ubuntu: [libpng12-dev]
 libpoco-dev:
   arch: [poco]
   debian: [libpoco-dev]
   fedora: [poco-devel]
   gentoo: [dev-libs/poco]
-  macports: [poco]
+  osx:
+    any_version:
+      macports: [poco]
   ubuntu: [libpoco-dev]
 libpocofoundation9:
   debian: [libpocofoundation9]
@@ -1226,7 +1320,9 @@ libqglviewer-qt4:
   arch: [libqglviewer]
   debian: [libqglviewer-qt4-2]
   fedora: [libQGLViewer]
-  macports: [libQGLViewer]
+  osx:
+    any_version:
+      macports: [libQGLViewer]
   ubuntu:
     lucid: [libqglviewer-qt4-2]
     maverick: [libqglviewer-qt4-2]
@@ -1256,8 +1352,10 @@ libqhull:
   debian: [libqhull-dev]
   fedora: [qhull-devel]
   gentoo: [media-libs/qhull]
-  macports: [qhull]
   opensuse: [qhull-devel]
+  osx:
+    any_version:
+      macports: [qhull]
   ubuntu: [libqhull-dev]
 libqt4:
   arch: [qt4]
@@ -1265,8 +1363,10 @@ libqt4:
   fedora: [qt]
   freebsd: [qt4-corelib]
   gentoo: [dev-qt/qtcore]
-  macports: [qt4-mac]
   opensuse: [libqt4]
+  osx:
+    any_version:
+      macports: [qt4-mac]
   rhel: [qt]
   ubuntu: [libqt4-dbus, libqt4-network, libqt4-script, libqt4-test, libqt4-xml, libqtcore4]
 libqt4-dev:
@@ -1275,8 +1375,10 @@ libqt4-dev:
   fedora: [qt-devel]
   freebsd: [qt4-corelib]
   gentoo: [dev-qt/qtcore]
-  macports: [qt4-mac]
   opensuse: [libqt4-devel]
+  osx:
+    any_version:
+      macports: [qt4-mac]
   rhel: [qt-devel]
   ubuntu: [libqt4-dev]
 libqt4-opengl:
@@ -1291,8 +1393,10 @@ libqt4-opengl-dev:
   debian: [libqt4-opengl-dev]
   fedora: [qt-devel]
   gentoo: [dev-qt/qtopengl]
-  macports: [qt4-mac]
   opensuse: [libqt4-devel]
+  osx:
+    any_version:
+      macports: [qt4-mac]
   rhel: [qt-devel]
   ubuntu: [libqt4-opengl-dev]
 libqt4-sql-psql:
@@ -1300,7 +1404,9 @@ libqt4-sql-psql:
   debian: [libqt4-sql-psql]
   fedora: [qt-postgresql]
   gentoo: [dev-qt/qtsql]
-  macports: [qt4-mac]
+  osx:
+    any_version:
+      macports: [qt4-mac]
   ubuntu: [libqt4-sql-psql]
 libqtgui4:
   arch: [qt4]
@@ -1353,14 +1459,18 @@ libreadline:
   debian: [libreadline-dev]
   fedora: [readline]
   gentoo: [sys-libs/readline]
-  macports: [readline]
+  osx:
+    any_version:
+      macports: [readline]
   ubuntu: [libreadline-dev]
 libreadline-dev:
   arch: [readline]
   debian: [libreadline-dev]
   fedora: [readline-devel]
   gentoo: [sys-libs/readline]
-  macports: [readline]
+  osx:
+    any_version:
+      macports: [readline]
   ubuntu: [libreadline-dev]
 libreadline-java:
   arch: [java-readline]
@@ -1419,8 +1529,10 @@ libtheora:
   debian: [libtheora-dev]
   fedora: [libtheora-devel]
   gentoo: [media-libs/libtheora]
-  macports: [libtheora]
   opensuse: [libtheora-devel]
+  osx:
+    any_version:
+      macports: [libtheora]
   ubuntu: [libtheora-dev]
 libtiff-dev:
   arch: [libtiff]
@@ -1430,8 +1542,10 @@ libtiff-dev:
     wheezy: [libtiff5-alt-dev]
   fedora: [libtiff]
   gentoo: [media-libs/tiff]
-  macports: [tiff]
   opensuse: [libtiff-devel]
+  osx:
+    any_version:
+      macports: [tiff]
   ubuntu:
     lucid: [libtiff4-dev]
     maverick: [libtiff4-dev]
@@ -1448,7 +1562,9 @@ libtiff4-dev:
   debian: [libtiff4-dev]
   fedora: [libtiff-devel]
   gentoo: [media-libs/tiff]
-  macports: [tiff]
+  osx:
+    any_version:
+      macports: [tiff]
   ubuntu: [libtiff4-dev]
 libtool:
   arch: [libtool]
@@ -1461,8 +1577,10 @@ libtool:
   fedora: [libtool, libtool-ltdl-devel]
   freebsd: [libtool]
   gentoo: [sys-devel/libtool]
-  macports: [libtool]
   opensuse: [libtool, libltdl3]
+  osx:
+    any_version:
+      macports: [libtool]
   rhel: [libtool, libtool-ltdl-devel]
   ubuntu:
     apt:
@@ -1477,7 +1595,9 @@ libunittest++:
   arch: [unittestpp]
   debian: [libunittest++-dev]
   fedora: [unittest]
-  macports: [unittest-cpp]
+  osx:
+    any_version:
+      macports: [unittest-cpp]
   rhel: [unittest]
   ubuntu:
     apt:
@@ -1515,7 +1635,9 @@ libusb:
   debian: [libusb-0.1-4]
   fedora: [libusb]
   gentoo: [dev-libs/libusb-compat]
-  macports: [libusb]
+  osx:
+    any_version:
+      macports: [libusb]
   ubuntu: [libusb-0.1-4]
 libusb-1.0:
   arch: [libusbx]
@@ -1537,14 +1659,18 @@ libusb-1.0-dev:
     schrödinger’s: [libusbx-devel]
     spherical: [libusbx-devel]
   gentoo: [=dev-libs/libusb-1.0*]
-  macports: [libusb]
   opensuse: [libusb-1_0-devel]
+  osx:
+    any_version:
+      macports: [libusb]
   ubuntu: [libusb-1.0-0-dev]
 libusb-dev:
   arch: [libusb-compat]
   debian: [libusb-dev]
   fedora: [libusb-devel]
-  macports: [libusb]
+  osx:
+    any_version:
+      macports: [libusb]
   ubuntu: [libusb-dev]
 libv4l-dev:
   arch: [v4l-utils]
@@ -1561,8 +1687,10 @@ libvtk:
   debian: [libvtk5-dev]
   fedora: [vtk-devel]
   gentoo: [sci-libs/vtk]
-  macports: [vtk-devel]
   opensuse: [vtk-devel]
+  osx:
+    any_version:
+      macports: [vtk-devel]
   ubuntu:
     lucid: [libvtk5-dev]
     maverick: [libvtk5-dev]
@@ -1582,7 +1710,9 @@ libx11:
   debian: [libx11-dev]
   fedora: [libX11]
   gentoo: [x11-libs/libX11]
-  macports: [xorg-libX11]
+  osx:
+    any_version:
+      macports: [xorg-libX11]
   ubuntu: [libx11-dev]
 libx11-dev:
   arch: [libx11]
@@ -1596,8 +1726,10 @@ libxaw:
   fedora: [libXaw-devel]
   freebsd: [libXaw]
   gentoo: [x11-libs/libXaw]
-  macports: [xorg-libXaw]
   opensuse: [xorg-x11-devel]
+  osx:
+    any_version:
+      macports: [xorg-libXaw]
   rhel: [libXaw-devel]
   ubuntu: [libxaw7-dev]
 libxenomai-dev:
@@ -1609,8 +1741,10 @@ libxext:
   fedora: [libXext-devel]
   freebsd: [libXext]
   gentoo: [x11-libs/libXext]
-  macports: [xorg-libXext]
   opensuse: [xorg-x11-libXext-devel]
+  osx:
+    any_version:
+      macports: [xorg-libXext]
   rhel: [libXext-devel]
   ubuntu: [libxext-dev]
 libxi-dev:
@@ -1633,8 +1767,10 @@ libxml2:
   fedora: [libxml2-devel]
   freebsd: [libxml2]
   gentoo: [dev-libs/libxml2]
-  macports: [libxml2]
   opensuse: [libxml2-devel]
+  osx:
+    any_version:
+      macports: [libxml2]
   rhel: [libxml2-devel]
   ubuntu: [libxml2-dev]
 libxmu-dev:
@@ -1647,14 +1783,18 @@ libxrandr:
   debian: [libxrandr-dev]
   fedora: [libXrandr-devel]
   gentoo: [x11-libs/libXrandr]
-  macports: [xorg-libXrandr]
+  osx:
+    any_version:
+      macports: [xorg-libXrandr]
   rhel: [libXrandr-devel]
   ubuntu: [libxrandr-dev]
 libxslt:
   arch: [libxslt]
   debian: [libxslt1-dev]
   fedora: [libxslt-devel]
-  macports: [libxslt]
+  osx:
+    any_version:
+      macports: [libxslt]
   ubuntu: [libxslt1-dev]
 libxt-dev:
   arch: [libxt]
@@ -1672,8 +1812,10 @@ libxxf86vm:
   fedora: [libXxf86vm-devel]
   freebsd: [libXxf86vm]
   gentoo: [x11-libs/libXxf86vm]
-  macports: [xorg-libXxf86vm]
   opensuse: [xorg-x11-devel]
+  osx:
+    any_version:
+      macports: [xorg-libXxf86vm]
   rhel: [libXxf86vm-devel]
   ubuntu: [libxxf86vm-dev]
 linux-headers-generic:
@@ -1688,15 +1830,19 @@ log4cxx:
   fedora: [log4cxx-devel]
   freebsd: [log4cxx]
   gentoo: [dev-libs/log4cxx]
-  macports: [ros-log4cxx]
   opensuse: [liblog4cxx-devel]
+  osx:
+    any_version:
+      macports: [ros-log4cxx]
   rhel: [log4cxx-devel]
   ubuntu: [liblog4cxx10-dev]
 lua-dev:
   arch: [lua]
   debian: [liblua5.1-0-dev]
   fedora: [lua-devel]
-  macports: [lua51]
+  osx:
+    any_version:
+      macports: [lua51]
   ubuntu: [liblua5.1-0-dev]
 lz4:
   arch: [lz4]
@@ -1728,8 +1874,10 @@ mercurial:
   fedora: [mercurial]
   freebsd: [mercurial]
   gentoo: [dev-vcs/mercurial]
-  macports: [mercurial]
   opensuse: [mercurial]
+  osx:
+    any_version:
+      macports: [mercurial]
   ubuntu: [mercurial]
 mesa-common-dev:
   arch: [mesa]
@@ -1745,7 +1893,9 @@ mongodb-dev:
   arch: [mongodb]
   debian: [libmongo-client-dev, mongodb-dev]
   fedora: [libmongo-client-devel, mongodb-devel]
-  macports: [mongodb]
+  osx:
+    any_version:
+      macports: [mongodb]
   ubuntu: [libmongo-client-dev, mongodb-dev]
 mono-devel:
   debian: [mono-devel]
@@ -1775,15 +1925,19 @@ net-tools:
 netcdf:
   debian: [libnetcdf-dev]
   fedora: [netcdf]
-  macports: [netcdf, netcdf-cxx]
+  osx:
+    any_version:
+      macports: [netcdf, netcdf-cxx]
   ubuntu: [libnetcdf-dev]
 netpbm:
   arch: [netpbm]
   debian: [libnetpbm10-dev]
   fedora: [netpbm-devel]
   gentoo: [media-libs/netpbm]
-  macports: [netpbm]
   opensuse: [netpbm]
+  osx:
+    any_version:
+      macports: [netpbm]
   ubuntu: [libnetpbm10-dev]
 nite-dev:
   arch: [primesense-nite]
@@ -1823,7 +1977,9 @@ omniorb:
     lenny: [omniorb4, omniidl4, omniorb4-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
     sarge: [omniorb4, omniidl4, omniorb4-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
   fedora: [omniORB, omniORB-devel, omniORB-servers]
-  macports: [omniORB]
+  osx:
+    any_version:
+      macports: [omniORB]
   ubuntu:
     any_version: [omniorb, omniidl, omniorb-nameserver, libomniorb4-dev]
     lucid: [omniorb4, omniidl4, omniorb4-nameserver, libomniorb4-1, libomniorb4-dev, libomnithread3-dev, libomnithread3c2]
@@ -1844,8 +2000,10 @@ opengl:
   fedora: [mesa-libGL-devel, mesa-libGLU-devel]
   freebsd: [mesagl-mangled]
   gentoo: [media-libs/mesa]
-  macports: [mesa]
   opensuse: [Mesa-devel]
+  osx:
+    any_version:
+      macports: [mesa]
   rhel: [mesa-libGL-devel, mesa-libGLU-devel]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
 openjdk-6-jdk:
@@ -1858,7 +2016,9 @@ openmpi:
   debian:
   fedora: [openmpi]
   freebsd:
-  macports: [openmpi]
+  osx:
+    any_version:
+      macports: [openmpi]
   ubuntu:
 openni-dev:
   arch: [openni]
@@ -1870,7 +2030,9 @@ pcre:
   debian: [libpcre3-dev]
   fedora: [pcre-devel]
   gentoo: [dev-libs/libpcre]
-  macports: [pcre]
+  osx:
+    any_version:
+      macports: [pcre]
   rhel: [pcre-devel]
   ubuntu: [libpcre3-dev]
 pcre-dev:
@@ -1886,8 +2048,10 @@ pkg-config:
   fedora: [pkgconfig]
   freebsd: [pkg-config]
   gentoo: [dev-util/pkgconfig]
-  macports: [pkgconfig]
   opensuse: [pkg-config]
+  osx:
+    any_version:
+      macports: [pkgconfig]
   rhel: [pkgconfig]
   ubuntu: [pkg-config]
 portaudio:
@@ -1907,13 +2071,17 @@ protobuf:
   arch: [protobuf]
   debian: [libprotobuf7]
   fedora: [protobuf]
-  macports: [protobuf-cpp]
+  osx:
+    any_version:
+      macports: [protobuf-cpp]
   ubuntu: [libprotobuf7]
 protobuf-dev:
   arch: [protobuf]
   debian: [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
   fedora: [protobuf-devel, protobuf-compiler]
-  macports: [protobuf-cpp]
+  osx:
+    any_version:
+      macports: [protobuf-cpp]
   ubuntu: [libprotobuf-dev, protobuf-compiler, libprotoc-dev]
 ps-engine:
   arch: [primesense-sensor]
@@ -1945,8 +2113,10 @@ qt4-qmake:
   debian: [qt4-qmake]
   fedora: [qt-devel]
   gentoo: [dev-qt/qtcore]
-  macports: [qt4-mac]
   opensuse: [libqt4-devel]
+  osx:
+    any_version:
+      macports: [qt4-mac]
   rhel: [qt-devel]
   ubuntu: [qt4-qmake]
 readline-dev:
@@ -1971,7 +2141,9 @@ ruby:
   debian: [ruby1.8-dev, libruby1.8, rubygems1.8]
   fedora: [ruby, ruby-devel, openssl-devel, rubygems]
   gentoo: [dev-lang/ruby]
-  macports: [ruby]
+  osx:
+    any_version:
+      macports: [ruby]
   ubuntu:
     any_version: [ruby1.9.1-dev, libruby1.9.1, ruby1.9.1]
     lucid: [ruby1.8-dev, libopenssl-ruby1.8, rubygems1.8]
@@ -1987,8 +2159,10 @@ sbcl:
   debian: [sbcl]
   fedora: [sbcl]
   gentoo: [dev-lisp/sbcl]
-  macports: [sbcl]
   opensuse: [sbcl]
+  osx:
+    any_version:
+      macports: [sbcl]
   ubuntu: [sbcl]
 scons:
   arch: [scons]
@@ -1996,8 +2170,10 @@ scons:
   fedora: [scons]
   freebsd: [scons]
   gentoo: [dev-util/scons]
-  macports: [scons]
   opensuse: [scons]
+  osx:
+    any_version:
+      macports: [scons]
   ubuntu: [scons]
 screen:
   arch: [screen]
@@ -2019,7 +2195,9 @@ sdl:
   arch: [sdl]
   debian: [libsdl1.2-dev]
   fedora: [SDL-devel]
-  macports: [libsdl]
+  osx:
+    any_version:
+      macports: [libsdl]
   ubuntu: [libsdl1.2-dev]
 sdl-gfx:
   arch: [sdl_gfx]
@@ -2033,8 +2211,10 @@ sdl-image:
   fedora: [SDL_image-devel]
   freebsd: [sdl_image]
   gentoo: [media-libs/sdl-image]
-  macports: [libsdl_image]
   opensuse: [SDL_image]
+  osx:
+    any_version:
+      macports: [libsdl_image]
   ubuntu: [libsdl-image1.2-dev]
 sdl-ttf:
   arch: [sdl_ttf]
@@ -2075,14 +2255,18 @@ subversion:
   fedora: [subversion]
   freebsd: [subversion]
   gentoo: [dev-vcs/subversion]
-  macports: [subversion]
   opensuse: [subversion]
+  osx:
+    any_version:
+      macports: [subversion]
   ubuntu: [subversion]
 suitesparse:
   arch: [suitesparse]
   debian: [libsuitesparse-dev]
   fedora: [suitesparse-devel]
-  macports: [SuiteSparse]
+  osx:
+    any_version:
+      macports: [SuiteSparse]
   ubuntu: [libsuitesparse-dev]
 swi-prolog:
   arch: [swi-prolog]
@@ -2139,9 +2323,11 @@ tango-icon-theme:
   debian: [tango-icon-theme]
   fedora: [tango-icon-theme]
   gentoo: [x11-themes/tango-icon-theme]
-  macports: [tango-icon-theme]
   mandrake: [tango-icon-theme]
   opensuse: [tango-icon-theme]
+  osx:
+    any_version:
+      macports: [tango-icon-theme]
   rhel: [tango-icon-theme]
   ubuntu: [tango-icon-theme]
 tar:
@@ -2150,8 +2336,10 @@ tar:
   fedora: [libtar-devel]
   freebsd: [libtar]
   gentoo: [dev-libs/libtar]
-  macports: [libtar]
   opensuse: [libtar-devel]
+  osx:
+    any_version:
+      macports: [libtar]
   rhel: [libtar-devel]
   ubuntu: [libtar-dev]
 tbb:
@@ -2159,8 +2347,10 @@ tbb:
   debian: [libtbb-dev]
   fedora: [tbb-devel]
   gentoo: [dev-cpp/tbb]
-  macports: [tbb]
   opensuse: [tbb-devel]
+  osx:
+    any_version:
+      macports: [tbb]
   ubuntu: [libtbb-dev]
 tcsh:
   arch: [tcsh]
@@ -2174,19 +2364,25 @@ texlive-fonts-extra:
   arch: [texlive-fontsextra]
   debian: [texlive-fonts-extra]
   fedora: [texlive-bbm, texlive-bbm-macros]
-  macports: [texlive-fonts-extra]
+  osx:
+    any_version:
+      macports: [texlive-fonts-extra]
   ubuntu: [texlive-fonts-extra]
 texlive-fonts-recommended:
   arch: [texlive-core]
   debian: [texlive-fonts-recommended]
   fedora: [texlive-times, texlive-helvetic]
-  macports: [texlive-fonts-recommended]
+  osx:
+    any_version:
+      macports: [texlive-fonts-recommended]
   ubuntu: [texlive-fonts-recommended]
 texlive-latex-base:
   arch: [texlive-core]
   debian: [texlive-latex-base]
   fedora: [texlive-latex, texlive-parskip]
-  macports: [texlive]
+  osx:
+    any_version:
+      macports: [texlive]
   ubuntu: [texlive-latex-base]
 texlive-latex-extra:
   arch: [texlive-latexextra]
@@ -2197,15 +2393,19 @@ texlive-latex-recommended:
   arch: [texlive-core]
   debian: [texlive-latex-recommended]
   fedora: [texlive-framed, texlive-threeparttable, texlive-ec, texlive-mdwtools]
-  macports: [texlive-latex-recommended]
+  osx:
+    any_version:
+      macports: [texlive-latex-recommended]
   ubuntu: [texlive-latex-recommended]
 tinyxml:
   arch: [tinyxml]
   debian: [libtinyxml-dev]
   fedora: [tinyxml-devel]
   gentoo: [dev-libs/tinyxml]
-  macports: [tinyxml]
   opensuse: [tinyxml-devel]
+  osx:
+    any_version:
+      macports: [tinyxml]
   rhel: [tinyxml-devel]
   ubuntu: [libtinyxml-dev]
 tix:
@@ -2224,7 +2424,9 @@ ttf-kochi-mincho:
 ttf-mscorefonts-installer:
   arch: [ttf-ms-fonts]
   debian: [ttf-mscorefonts-installer]
-  macports:
+  osx:
+    any_version:
+      macports:
 ttf-sazanami-gothic:
   arch: [ttf-sazanami]
   debian: [ttf-sazanami-gothic]
@@ -2259,8 +2461,10 @@ unzip:
   fedora: [unzip]
   freebsd: [unzip]
   gentoo: [app-arch/unzip]
-  macports: [unzip]
   opensuse: [unzip]
+  osx:
+    any_version:
+      macports: [unzip]
   rhel: [unzip]
   ubuntu: [unzip]
 uuid:
@@ -2269,8 +2473,10 @@ uuid:
   fedora: [libuuid-devel]
   freebsd: [e2fsprogs-libuuid]
   gentoo: [util-linux]
-  macports: [ossp-uuid]
   opensuse: [libuuid-devel]
+  osx:
+    any_version:
+      macports: [ossp-uuid]
   rhel: [libuuid-devel]
   ubuntu: [uuid-dev]
 uvcdynctrl:
@@ -2298,8 +2504,10 @@ wxpython:
   fedora: [wxPython-devel]
   freebsd: [py27-wxPython]
   gentoo: [dev-python/wxpython]
-  macports: [py27-wxpython, py27-gobject, py27-gtk, py27-cairo]
   opensuse: [python-wxGTK]
+  osx:
+    any_version:
+      macports: [py27-wxpython, py27-gobject, py27-gtk, py27-cairo]
   rhel: [wxPython-devel]
   ubuntu: [python-wxgtk2.8]
 wxwidgets:
@@ -2308,8 +2516,10 @@ wxwidgets:
   fedora: [wxGTK-devel]
   freebsd: [wxgtk2]
   gentoo: [x11-libs/wxGTK]
-  macports: [wxWidgets-python]
   opensuse: [wxGTK-devel]
+  osx:
+    any_version:
+      macports: [wxWidgets-python]
   rhel: [wxGTK-devel]
   ubuntu: [libwxgtk2.8-dev]
 x11proto-dri2-dev:
@@ -2339,24 +2549,32 @@ xerces:
 xfont-server:
   debian: [xfs]
   fedora: [libXfont]
-  macports:
+  osx:
+    any_version:
+      macports:
   ubuntu: [xfs]
 xfonts-100dpi:
   debian: [xfonts-100dpi]
   fedora: [xorg-x11-fonts-100dpi]
-  macports:
+  osx:
+    any_version:
+      macports:
   ubuntu: [xfonts-100dpi]
 xfonts-75dpi:
   debian: [xfonts-75dpi]
   fedora: [xorg-x11-fonts-100dpi]
-  macports:
+  osx:
+    any_version:
+      macports:
   ubuntu: [xfonts-75dpi]
 xpath-perl:
   arch: [perl-xml-xpath]
   debian: [libxml-xpath-perl]
   fedora: [perl-XML-XPath]
   gentoo: [dev-perl/XML-XPath]
-  macports: [p5-xml-xpath]
+  osx:
+    any_version:
+      macports: [p5-xml-xpath]
   ubuntu: [libxml-xpath-perl]
 xterm:
   arch: [xterm]
@@ -2388,7 +2606,9 @@ yaml:
   debian: [libyaml-dev]
   fedora: [libyaml]
   gentoo: [dev-libs/libyaml]
-  macports: [libyaml]
+  osx:
+    any_version:
+      macports: [libyaml]
   ubuntu: [libyaml-dev]
 yaml-cpp:
   arch: [yaml-cpp]
@@ -2400,8 +2620,10 @@ yaml-cpp:
         uri: https://kforge.ros.org/rosrelease/viewvc/sourcedeps/yaml-cpp/yaml-cpp-0.2.5.rdmanifest
   fedora: [yaml-cpp-devel]
   gentoo: [dev-cpp/yaml-cpp]
-  macports: [yaml-cpp]
   opensuse: [yaml-cpp-devel]
+  osx:
+    any_version:
+      macports: [yaml-cpp]
   rhel: [yaml-cpp-devel]
   ubuntu:
     any_version: [libyaml-cpp-dev]
@@ -2427,8 +2649,10 @@ zlib:
   fedora: [zlib-devel]
   freebsd: [builtin]
   gentoo: [sys-libs/zlib]
-  macports: [zlib]
   opensuse: [zlib-devel]
+  osx:
+    any_version:
+      macports: [zlib]
   rhel: [zlib-devel]
   ubuntu: [zlib1g-dev]
 zziplib:
@@ -2437,7 +2661,9 @@ zziplib:
   fedora: [zziplib-devel]
   freebsd: [zziplib]
   gentoo: [dev-libs/zziplib]
-  macports: [libzzip]
   opensuse: [zziplib-devel]
+  osx:
+    any_version:
+      macports: [libzzip]
   rhel: [zziplib-devel]
   ubuntu: [libzzip-0-13, libzzip-dev]

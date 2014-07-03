@@ -1,7 +1,9 @@
 ipython:
   debian: [ipython]
   fedora: [python-ipython]
-  macports: [py27-ipython]
+  osx:
+    any_version:
+      macports: [py27-ipython]
   ubuntu:
     any_version: [ipython]
     trusty_python3: [ipython3]
@@ -11,8 +13,10 @@ paramiko:
   fedora: [python-paramiko]
   freebsd: [py27-paramiko]
   gentoo: [dev-python/paramiko]
-  macports: [py27-paramiko]
   opensuse: [python-paramiko]
+  osx:
+    any_version:
+      macports: [py27-paramiko]
   rhel: [python-paramiko]
   ubuntu: [python-paramiko]
 pyside-tools:
@@ -26,8 +30,10 @@ python:
   fedora: [python-devel]
   freebsd: [python]
   gentoo: [python]
-  macports: [python26, python_select]
   opensuse: [python-devel]
+  osx:
+    any_version:
+      macports: [python26, python_select]
   rhel: [python-devel]
   ubuntu:
     any_version: [python-dev]
@@ -43,8 +49,10 @@ python-argparse:
     wheezy: [python-argparse]
   fedora: [python]
   gentoo: [virtual/python-argparse]
-  macports: [py27-argparse]
   opensuse: [python-argparse]
+  osx:
+    any_version:
+      macports: [py27-argparse]
   ubuntu:
     any_version:
       packages:
@@ -81,8 +89,10 @@ python-catkin-pkg:
   debian: [python-catkin-pkg]
   fedora: [python-catkin_pkg]
   gentoo: [dev-python/catkin_pkg]
-  macports: [python-catkin-pkg]
   opensuse: [python-catkin_pkg]
+  osx:
+    any_version:
+      macports: [python-catkin-pkg]
   ubuntu:
     any_version: [python-catkin-pkg]
     trusty_python3: [python3-catkin-pkg]
@@ -136,8 +146,10 @@ python-empy:
   debian: [python-empy]
   fedora: [python-empy]
   gentoo: [dev-python/empy]
-  macports: [py27-empy]
   opensuse: [python-empy]
+  osx:
+    any_version:
+      macports: [py27-empy]
   ubuntu: [python-empy]
 python-enum:
   fedora: [python-enum]
@@ -171,8 +183,10 @@ python-gtk2:
   fedora: [pygtk2]
   freebsd: [py-gtk2]
   gentoo: [=dev-python/pygtk-2*]
-  macports: [py27-gtk]
   opensuse: [python-gtk]
+  osx:
+    any_version:
+      macports: [py27-gtk]
   rhel: [pygtk2]
   ubuntu: [python-gtk2]
 python-h5py:
@@ -199,8 +213,10 @@ python-imaging:
     spherical: [python-imaging]
   freebsd: [py27-imaging]
   gentoo: [virtual/python-imaging]
-  macports: [py27-pil]
   opensuse: [python-imaging]
+  osx:
+    any_version:
+      macports: [py27-pil]
   rhel: [python-imaging]
   ubuntu:
     any_version: [python-imaging]
@@ -229,8 +245,10 @@ python-matplotlib:
   fedora: [python-matplotlib]
   freebsd: [py27-matplotlib]
   gentoo: [dev-python/matplotlib]
-  macports: [py27-matplotlib]
   opensuse: [python-matplotlib]
+  osx:
+    any_version:
+      macports: [py27-matplotlib]
   rhel: [python-matplotlib]
   ubuntu:
     any_version: [python-matplotlib]
@@ -259,8 +277,10 @@ python-netifaces:
   debian: [python-netifaces]
   fedora: [python-netifaces]
   gentoo: [dev-python/netifaces]
-  macports: [p27-netifaces]
   opensuse: [python-netifaces]
+  osx:
+    any_version:
+      macports: [p27-netifaces]
   ubuntu:
     any_version: [python-netifaces]
     trusty_python3: [python3-netifaces]
@@ -276,8 +296,10 @@ python-nose:
   debian: [python-nose]
   fedora: [python-nose]
   gentoo: [dev-python/nose]
-  macports: [py27-nose]
   opensuse: [python-nose]
+  osx:
+    any_version:
+      macports: [py27-nose]
   ubuntu:
     any_version: [python-nose]
     trusty_python3: [python3-nose]
@@ -289,8 +311,10 @@ python-numpy:
   fedora: [numpy]
   freebsd: [py-numpy]
   gentoo: [dev-python/numpy]
-  macports: [py27-numpy]
   opensuse: [python-numpy]
+  osx:
+    any_version:
+      macports: [py27-numpy]
   rhel: [numpy]
   ubuntu:
     any_version: [python-numpy]
@@ -312,8 +336,10 @@ python-opengl:
   debian: [python-opengl]
   fedora: [PyOpenGL]
   gentoo: [dev-python/pyopengl]
-  macports: [py27-opengl]
   opensuse: [python-opengl]
+  osx:
+    any_version:
+      macports: [py27-opengl]
   ubuntu:
     any_version: [python-opengl]
     trusty_python3: [python3-opengl]
@@ -325,8 +351,10 @@ python-paramiko:
   fedora: [python-paramiko]
   freebsd: [py27-paramiko]
   gentoo: [dev-python/paramiko]
-  macports: [py27-paramiko]
   opensuse: [python-paramiko]
+  osx:
+    any_version:
+      macports: [py27-paramiko]
   rhel: [python-paramiko]
   ubuntu: [python-paramiko]
 python-pcapy:
@@ -352,8 +380,10 @@ python-psutil:
   debian: [python-psutil]
   fedora: [python-psutil]
   gentoo: [dev-python/psutil]
-  macports: [py27-psutil]
   opensuse: [python-psutil]
+  osx:
+    any_version:
+      macports: [py27-psutil]
   ubuntu:
     any_version: [python-psutil]
     trusty_python3: [python3-psutil]
@@ -379,8 +409,10 @@ python-pydot:
   debian: [python-pydot]
   fedora: [pydot]
   gentoo: [media-gfx/pydot]
-  macports: [py27-pydot]
   opensuse: [python-pydot]
+  osx:
+    any_version:
+      macports: [py27-pydot]
   ubuntu: [python-pydot]
 python-pygame:
   debian: [python-pygame]
@@ -453,8 +485,10 @@ python-qt-bindings:
     wheezy: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
   fedora: [PyQt4, PyQt4-devel, sip-devel]
   gentoo: [PyQt4]
-  macports: [p27-pyqt4]
   opensuse: [python-qt4-devel]
+  osx:
+    any_version:
+      macports: [p27-pyqt4]
   rhel: [PyQt4, PyQt4-devel, sip-devel]
   ubuntu:
     any_version: [python-pyside, libpyside-dev, libshiboken-dev, shiboken, python-qt4, python-qt4-dev, python-sip-dev]
@@ -474,7 +508,9 @@ python-qt-bindings-qwt5:
   debian: [python-qwt5-qt4]
   fedora: [PyQwt-devel]
   gentoo: [dev-python/pyqwt]
-  macports: [qwt52]
+  osx:
+    any_version:
+      macports: [qwt52]
   ubuntu: [python-qwt5-qt4]
 python-qt4-gl:
   debian:
@@ -514,24 +550,30 @@ python-rosdep:
     trusty_python3: [python3-rosdep]
 python-rosdistro:
   any_os:
-    macports: [py27-rosdistro]
     pip: [rosdistro]
   debian: [python-rosdistro]
   fedora: [python-rosdistro]
+  osx:
+    any_version:
+      macports: [py27-rosdistro]
   ubuntu:
     any_version: [python-rosdistro]
     trusty_python3: [python3-rosdistro]
 python-rosinstall:
   arch: [python2-rosinstall]
   fedora: [python-rosinstall]
-  macports: [p27-rosinstall]
+  osx:
+    any_version:
+      macports: [p27-rosinstall]
   ubuntu:
     any_version: [python-rosinstall]
     trusty_python3: [python3-rosinstall]
 python-rosinstall-generator:
   arch: [python2-rosinstall-generator]
   fedora: [python-rosinstall_generator]
-  macports: [py27-rosinstall-generator]
+  osx:
+    any_version:
+      macports: [py27-rosinstall-generator]
   ubuntu:
     any_version: [python-rosinstall-generator]
     trusty_python3: [python3-rosinstall-generator]
@@ -542,8 +584,10 @@ python-rospkg:
   debian: [python-rospkg]
   fedora: [python-rospkg]
   gentoo: [dev-python/rospkg]
-  macports: [py27-rospkg]
   opensuse: [python-rospkg]
+  osx:
+    any_version:
+      macports: [py27-rospkg]
   ubuntu:
     any_version: [python-rospkg]
     trusty_python3: [python3-rospkg]
@@ -561,8 +605,10 @@ python-scipy:
   fedora: [scipy]
   freebsd: [py-scipy]
   gentoo: [dev-libs/scipy]
-  macports: [py27-scipy]
   opensuse: [python-scipy]
+  osx:
+    any_version:
+      macports: [py27-scipy]
   ubuntu:
     any_version: [python-scipy]
     trusty_python3: [python3-scipy]
@@ -579,7 +625,9 @@ python-setuptools:
   arch: [python2-distribute]
   debian: [python-setuptools]
   fedora: [python-setuptools]
-  macports: [py27-setuptools]
+  osx:
+    any_version:
+      macports: [py27-setuptools]
   ubuntu:
     any_version: [python-setuptools]
     trusty_python3: [python3-setuptools]
@@ -593,8 +641,10 @@ python-sip:
   fedora: [sip-devel]
   freebsd: [py27-sip]
   gentoo: [dev-python/sip]
-  macports: [py27-sip]
   opensuse: [python-sip-devel]
+  osx:
+    any_version:
+      macports: [py27-sip]
   osxbrew:
     homebrew:
       packages: [sip]
@@ -604,7 +654,9 @@ python-sip:
     trusty_python3: [python3-sip-dev]
 python-sip4:
   fedora: [sip]
-  macports: [py27-sip4]
+  osx:
+    any_version:
+      macports: [py27-sip4]
 python-sklearn:
   fedora: [python-scikit-learn]
   ubuntu:
@@ -621,8 +673,10 @@ python-sphinx:
   fedora: [python-sphinx]
   freebsd: [py27-sphinx]
   gentoo: [dev-python/sphinx]
-  macports: [py27-sphinx]
   opensuse: [python-Sphinx]
+  osx:
+    any_version:
+      macports: [py27-sphinx]
   ubuntu:
     any_version: [python-sphinx]
     trusty_python3: [python3-sphinx]
@@ -670,12 +724,16 @@ python-usb:
   ubuntu: [python-usb]
 python-vcstool:
   fedora: [python-vcstools]
-  macports: [py27-vcstools]
+  osx:
+    any_version:
+      macports: [py27-vcstools]
 python-wstool:
   fedora:
     pip:
       packages: [wstool]
-  macports: [py27-wstool]
+  osx:
+    any_version:
+      macports: [py27-wstool]
   ubuntu: [python-wstool]
 python-yaml:
   any_os:
@@ -688,8 +746,10 @@ python-yaml:
   fedora: [PyYAML]
   freebsd: [py27-yaml]
   gentoo: [pyyaml]
-  macports: [py27-yaml]
   opensuse: [python-PyYAML]
+  osx:
+    any_version:
+      macports: [py27-yaml]
   rhel: [PyYAML]
   ubuntu:
     any_version: [python-yaml]

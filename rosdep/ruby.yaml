@@ -2,7 +2,8 @@ facets:
   arch: [ruby-facets]
   fedora: [rubygem-facets]
   osx:
-    macports: [rb-facets]
+    any_version:
+      macports: [rb-facets]
   ubuntu:
     any_version: [ruby-facets]
     lucid: [libfacets-ruby]
@@ -10,7 +11,8 @@ facets:
 flexmock:
   fedora: [rubygem-flexmock]
   osx:
-    macports: [rb-flexmock]
+    any_version:
+      macports: [rb-flexmock]
   ubuntu:
     any_version: [ruby-flexmock]
     lucid: [libflexmock-ruby]
@@ -23,7 +25,8 @@ nokogiri:
   arch: [ruby-nokogiri]
   fedora: [rubygem-nokogiri]
   osx:
-    macports: [rb-nokogiri]
+    any_version:
+      macports: [rb-nokogiri]
   ubuntu:
     any_version: [ruby-nokogiri]
     lucid: [libnokogiri-ruby]
@@ -31,7 +34,9 @@ nokogiri:
 rake:
   arch: [ruby]
   fedora: [rubygem-rake, rubygem-rake-compiler]
-  macports: [rb-rake]
+  osx:
+    any_version:
+      macports: [rb-rake]
   ubuntu:
     apt: [rake]
 rdoc:
