@@ -54,8 +54,7 @@ python-argparse:
     any_version:
       macports: [py27-argparse]
   ubuntu:
-    any_version:
-      packages: []
+    any_version: []
     lucid: [python-argparse]
     maverick: [python-argparse]
     natty: [python-argparse]
@@ -429,10 +428,7 @@ python-pylint:
   fedora: [pylint]
   ubuntu: [pylint]
 python-pymavlink:
-  fedora:
-    pip:
-      packages: [pymavlink]
-  ubuntu:
+  any_os:
     pip:
       packages: [pymavlink]
 python-pymodbus:
@@ -452,12 +448,14 @@ python-pymouse:
     pip: [pymouse]
 python-pyproj:
   debian:
-    apt:
-      packages: [python-pyproj]
+    any_version:
+      apt:
+        packages: [python-pyproj]
   fedora: [pyproj]
   ubuntu:
-    apt:
-      packages: [python-pyproj]
+    any_version:
+      apt:
+        packages: [python-pyproj]
 python-pyside:
   debian: [python-pyside]
   fedora: [python-pyside]
@@ -514,12 +512,14 @@ python-qt-bindings-qwt5:
   ubuntu: [python-qwt5-qt4]
 python-qt4-gl:
   debian:
-    apt:
-      packages: [python-qt4-gl]
+    any_version:
+      apt:
+        packages: [python-qt4-gl]
   fedora: [PyQt4]
   ubuntu:
-    apt:
-      packages: [python-qt4-gl]
+    any_version:
+      apt:
+        packages: [python-qt4-gl]
 python-qwt5-qt4:
   arch: [pyqwt]
   debian: [python-qwt5-qt4]
@@ -645,9 +645,6 @@ python-sip:
   osx:
     any_version:
       macports: [py27-sip]
-  osxbrew:
-    homebrew:
-      packages: [sip]
   rhel: [sip-devel]
   ubuntu:
     any_version: [python-sip-dev]
@@ -728,7 +725,7 @@ python-vcstool:
     any_version:
       macports: [py27-vcstools]
 python-wstool:
-  fedora:
+  any_os:
     pip:
       packages: [wstool]
   osx:
